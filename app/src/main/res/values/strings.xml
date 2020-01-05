@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GpsWeather</string>
+    <string name="title_activity_maps">GpsWeather</string>
+    <string name="message_gps_disable">Необходимо включить GPS</string>
+    <string name="message_wait_gps_location">Получение координат,ожидайте...</string>
+    <string name="message_select_location">Выберите интересующее место на карте</string>
+    <string name="message_try_get_location_later">Не удалось определить координаты. Попробуте еще раз</string>
+    <string name="message_dont_find_my_location">Не определено Ваше местоположение</string>
+    <string name="message_not_select_location">Не выбрано место на карте</string>
+    <string name="openWeatherApiKey">a6d151000fdfc2960853c5abf992b284</string>
+    <string name="historyActivityCaption">История</string>
+    <string name="gpsSettingCaption">GPS настройки</string>
+    <string name="gpsSettingText">GPS отключен. Перейти в настройки?</string>
+    <string name="gpsSettingBtnSettingText">Настройки</string>
+    <string name="gpsSettingBtnCancelText">Отмена</string>
+    <string name="weatherDialogCaption">Прогноз погоды</string>
+</resources>

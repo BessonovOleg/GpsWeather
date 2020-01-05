@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45sp"
+    android:orientation="horizontal"
+    android:layout_margin="5dp" >
+
+    <TextView
+        android:id="@+id/li_rowNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:padding="3dip"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/li_rowNo"
+        android:layout_toEndOf="@id/li_rowNo"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/li_locationName"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/li_locationName"
+        android:layout_toEndOf="@id/li_rowNo"
+        android:textSize="10sp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/li_lbLat"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/li_locationName"
+        android:layout_toEndOf="@id/li_lbLat"
+        android:textSize="10sp"
+        android:id="@+id/li_lbLon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/li_rowNo"
+        android:gravity="right"
+        android:layout_marginEnd="5dip"
+        android:textSize="10sp"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"
+        android:id="@+id/li_timeLabel"/>
+
+</RelativeLayout>
